@@ -1,0 +1,415 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../font/Roboto-Regular.html);
+    src: url(../font/Roboto-Regulard41d.html?#iefix) format('embedded-opentype'),url(../font/Roboto-Regular-2.html) format('woff'),url(../font/Roboto-Regular-3.html) format('truetype'),url(../font/Roboto-Regular-4.html#Cairo) format('svg');
+    font-display: swap;
+}
+
+body {
+    font-family: Roboto-Regular,sans-serif !important
+}
+
+body {
+    direction: ltr !important;
+    text-align: left
+}
+
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: right
+}
+
+@media (min-width:1200px) {
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        float: right
+    }
+}
+
+@media (min-width:992px) {
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        float: right
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .sm-100-w {
+        width: 100%
+    }
+}
+
+.pageb ul li {
+    padding-left: 1.5em;
+    padding-right: initial !important
+}
+
+    .pageb ul li:after {
+        left: 0;
+        right: initial !important
+    }
+
+@media (min-width:1200px) {
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+        float: right
+    }
+}
+
+@media (min-width:768px) {
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: right
+    }
+}
+
+@media (min-width:768px) {
+    .navbar-right {
+        float: left !important
+    }
+}
+
+@media (min-width:768px) {
+    .navbar-nav {
+        float: right
+    }
+}
+
+@media(max-width:767px) {
+    .nav > li {
+        width: 92%;
+        margin-right: initial;
+        margin-left: 20px;
+        float: left !important;
+        display: block
+    }
+
+    .Login-btn {
+        margin-left: -5px
+    }
+
+    .navbar-brand {
+        float: right
+    }
+}
+
+.navbar-brand {
+    float: right
+}
+
+.navbar-toggle {
+    float: left;
+    margin-left: 15px;
+    margin-right: initial
+}
+
+@media (min-width:768px) {
+    .navbar-header {
+        float: right
+    }
+}
+
+.fa-lg.icon {
+    float: right
+}
+
+.modal-backdrop {
+    z-index: 0 !important
+}
+
+@media (min-width:768px) {
+    .modal-dialog {
+        width: 500px;
+        margin: 64px auto
+    }
+}
+
+.modal-header {
+    border: none !important
+}
+
+.more-less {
+    float: right !important
+}
+
+.right-0 {
+    position: absolute;
+    right: 0;
+    left: initial !important;
+    bottom: 0
+}
+
+@media(max-width:991px) {
+    .right-0 {
+        position: relative !important
+    }
+}
+
+.TotalP {
+    float: right !important
+}
+
+.TotalPBtn {
+    float: right !important
+}
+
+.descripeband {
+    margin-left: 20px !important;
+    margin-right: 0 !important
+}
+
+.position_fixed {
+    right: 80px;
+    left: initial !important
+}
+
+.next_btn_position {
+    float: right
+}
+
+.set > a i {
+    float: right;
+    margin-top: 2px
+}
+
+.edit-btn {
+    left: initial !important;
+    right: 16px
+}
+
+.selectlabel:after {
+    right: 19px;
+    left: initial !important
+}
+
+.dropdown-menu > li > a {
+    text-align: left
+}
+
+.nav-tabs > li {
+    float: left
+}
+
+table.dataTable thead > tr > th.sorting {
+    padding-right: 30px !important;
+    padding-left: 10px !important
+}
+
+table.dataTable thead .sorting:before {
+    right: 1em !important;
+    left: initial !important
+}
+
+table.dataTable thead .sorting:after {
+    right: .5em !important;
+    left: initial !important
+}
+
+th {
+    text-align: left
+}
+
+@media (min-width:1200px) {
+    .paymentTable.Profil_ .col-md-6 {
+        float: left
+    }
+}
+
+@media (min-width:992px) {
+    .paymentTable.Profil_ .col-md-6 {
+        float: left
+    }
+}
+
+.QuestionLoader .video-bg-loader video {
+    right: 0 !important;
+    left: 0 !important
+}
+
+.loader {
+    right: 0 !important;
+    left: initial !important
+}
+
+.video-bg-loader {
+    right: 0 !important;
+    left: initial !important
+}
+
+#videoLoader {
+    left: 50% !important;
+    right: initial !important;
+    transform: translateX(-50%) translateY(-50%) !important
+}
+
+.modal label {
+    text-align: left !important
+}
+
+iframe#drift-widget.drift-widget-welcome-expanded-online, iframe#drift-widget.drift-widget-welcome-online {
+    left: 10px !important;
+    right: auto !important
+}
+
+@media (min-width:768px) {
+    .navbar-right .dropdown-menu {
+        left: 0;
+        right: auto
+    }
+}
+
+.ltrsty {
+    float: right !important;
+    margin: 0 10px
+}
+
+.text2fleft {
+    float: right !important
+}
+
+select {
+    background-position: calc(100% - 20px) calc(1em + 4px),calc(100% - 15px) calc(1em + 4px),110% 0 !important;
+    padding: 0.5em 3.5em .5em 1em !important;
+}
+
+.payment-form select {
+    background-position: calc(100% - 20px) calc(1em + 4px),calc(100% - 15px) calc(1em + 4px),100% 0
+}
+
+dd {
+    margin-left: 35% !important;
+    margin-right: initial !important;
+    border-left: 1px dotted #bdc8ca !important;
+    border-right: initial !important
+}
+
+dt {
+    float: left !important;
+    text-align: left !important
+}
+
+.AddExtraPartCont {
+    margin-bottom: 15px !important;
+    margin: 0 20px;
+    text-align: right
+}
+
+    .AddExtraPartCont a {
+        color: #696969 !important;
+        background: 0 0 !important;
+        padding: 0 !important;
+        border-radius: 8px;
+        margin-bottom: 28px
+    }
+
+.accordion__item > .accordion-header:after {
+    transform: rotate(175deg)
+}
+
+.slideform-btn-prev {
+    float: right !important
+}
+
+table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc_disabled:before {
+    left: 1em !important;
+    right: initial !important
+}
+
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_desc_disabled:after {
+    left: .5em !important;
+    right: initial !important
+}
+
+table.dataTable thead > tr > td.sorting, table.dataTable thead > tr > td.sorting_asc, table.dataTable thead > tr > td.sorting_desc, table.dataTable thead > tr > th.sorting, table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc {
+    padding-left: 30px !important;
+    padding-right: initial !important
+}
+
+@media (min-width:992px) {
+    .slideform-group .col-md-6 {
+        float: left
+    }
+
+    .slideform-group .Select-Arabic .col-md-6 {
+        float: right;
+        direction: rtl;
+        text-align: right
+    }
+
+    .Select-Arabic label {
+        text-align: right;
+        direction: rtl
+    }
+}
+
+@media (min-width:992px) {
+    .SelectDropDown .col-md-6 {
+        float: left
+    }
+}
+
+.pos_fixed {
+    float: left !important
+}
+
+.card__image--fence {
+    float: right
+}
+
+@media (min-width:768px) {
+    .navbar-left {
+        float: right !important
+    }
+
+    .navbar-header {
+        float: left
+    }
+}
+
+@media (min-width:1200px) {
+    #footer .col-lg-1, #footer .col-lg-10, #footer .col-lg-11, #footer .col-lg-12, #footer .col-lg-2, #footer .col-lg-3, #footer .col-lg-4, #footer .col-lg-5, #footer .col-lg-6, #footer .col-lg-7, #footer .col-lg-8, #footer .col-lg-9 {
+        float: left
+    }
+}
+
+body {
+    font-family: Roboto,sans-serif !important
+}
+
+.ContractBuilderPage .coloredmentGreen.fa-check, .ContractBuilderPage .coloredmentGreen.fa-check-circle {
+    margin-left: -15px !important;
+    margin-right: initial !important;
+    float: right !important
+}
+
+.ContractBuilderPage .SectionBand {
+    float: right;
+    right: 0;
+    left: initial
+}
+
+.ContractBuilderPage .tabs-left {
+    border-bottom: none;
+    border-right: 1px solid #ddd
+}
+
+@media (min-width:1200px) {
+    .ContractBuilderPage .col-lg-1, .ContractBuilderPage .col-lg-10, .ContractBuilderPage .col-lg-11, .ContractBuilderPage .col-lg-12, .ContractBuilderPage .col-lg-2, .ContractBuilderPage .col-lg-3, .ContractBuilderPage .col-lg-4, .ContractBuilderPage .col-lg-5, .ContractBuilderPage .col-lg-6, .ContractBuilderPage .col-lg-7, .ContractBuilderPage .col-lg-8, .ContractBuilderPage .col-lg-9 {
+        float: left
+    }
+}
+
+@media (min-width:992px) {
+    .feedbackmodal .col-md-1, .feedbackmodal .col-md-10, .feedbackmodal .col-md-11, .feedbackmodal .col-md-12, .feedbackmodal .col-md-2, .feedbackmodal .col-md-3, .feedbackmodal .col-md-4, .feedbackmodal .col-md-5, .feedbackmodal .col-md-6, .feedbackmodal .col-md-7, .feedbackmodal .col-md-8, .feedbackmodal .col-md-9 {
+        float: left
+    }
+}
+
+.ContractBuilderPage .accordion__item > .accordion-header:after {
+    transform: rotate(175deg);
+    float: right
+}
+.ltrClass select {
+    background-position: calc(100% - 20px) calc(1em + 4px),calc(100% - 15px) calc(1em + 4px),100% 0 !important;
+}
+@media (min-width: 1200px) {
+    .col-lg-offset-1 {
+        margin-right: 8.33333333%;
+        margin-left:initial
+    }
+}

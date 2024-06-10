@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Error 404</title>
+<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+<link rel="stylesheet" type="text/css" href="/Content/css/bootstrap.min.css">
+<style>
+        .error-section {
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+            .error-section .shape-one {
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: -1;
+            }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .error-section .shape-two {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .error-section .star-one {
+            position: absolute;
+            top: 0%;
+            left: 5%;
+        }
+
+        .error-section .star-two {
+            position: absolute;
+            top: 25%;
+            left: 65%;
+        }
+
+        .error-section .star-three {
+            position: absolute;
+            top: 60%;
+            left: 30%;
+        }
+
+        .error-content-wrapper {
+            width: 100%;
+        }
+
+        .error-content {
+            text-align: center;
+        }
+
+            .error-content .error-message {
+                font-size: 36px;
+                font-weight: 600;
+                color: #000000;
+                margin-top: 15px;
+                display: block;
+            }
+
+        .btn:not(:disabled):not(.disabled) {
+            cursor: pointer;
+        }
+
+        .error-content .btn {
+            margin-top: 30px;
+        }
+
+        .btn-round {
+            border-radius: 999px;
+            -webkit-border-radius: 999px;
+            -moz-border-radius: 999px;
+            -ms-border-radius: 999px;
+            -o-border-radius: 999px;
+        }
+
+        .btn-primary {
+            background-image: -moz-linear-gradient( 108deg, #929497 14%, #12adbb 100%);
+            background-image: -webkit-linear-gradient( 108deg, #929497 14%, #12adbb 100%);
+            background-image: -ms-linear-gradient( 108deg, #929497 14%, #12adbb 100%);
+            position: relative;
+            transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            z-index: 9;
+            overflow: hidden;
+        }
+
+        .btn-hover {
+            box-shadow: 0px 10px 15px 0px rgba(59, 55, 188, 0.5);
+        }
+
+        .btn {
+            padding: 12px 30px;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+
+        .btn-primary::before {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: -moz-linear-gradient( 108deg, rgb(123,25,203) 0%, rgb(59,38,219) 86%);
+            background-image: -webkit-linear-gradient( 108deg, rgb(123,25,203) 0%, rgb(59,38,219) 86%);
+            background-image: -ms-linear-gradient( 108deg, rgb(123,25,203) 0%, rgb(59,38,219) 86%);
+            z-index: -10;
+            opacity: 0;
+        }
+
+        .error {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: center;
+            max-width: 389px;
+            margin: auto;
+        }
+
+        .number {
+            font-weight: 900;
+            font-size: 15rem;
+            line-height: 1;
+            color: #69c4c0;
+        }
+
+        .illustration {
+            position: relative;
+            width: 12.2rem;
+            margin: 0 2.1rem;
+        }
+
+        .circle {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 12.2rem;
+            height: 11.4rem;
+            border-radius: 50%;
+            background-color: #69c4c0;
+        }
+
+        .clip {
+            position: absolute;
+            bottom: 0.3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            overflow: hidden;
+            width: 12.5rem;
+            height: 13rem;
+            border-radius: 0 0 50% 50%;
+        }
+
+        .paper {
+            position: absolute;
+            bottom: -0.3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 9.2rem;
+            height: 12.4rem;
+            border: 0.3rem solid #69c4c0;
+            background-color: white;
+            border-radius: 0.8rem;
+        }
+
+            .paper::before {
+                content: "";
+                position: absolute;
+                top: -0.7rem;
+                right: -0.7rem;
+                width: 1.4rem;
+                height: 1rem;
+                background-color: white;
+                border-bottom: 0.3rem solid #929497;
+                transform: rotate(45deg);
+            }
+
+        .face {
+            position: relative;
+            margin-top: 2.3rem;
+        }
+
+        .eyes {
+            position: absolute;
+            top: 0;
+            left: 2.4rem;
+            width: 4.6rem;
+            height: 0.8rem;
+        }
+
+        .eye {
+            position: absolute;
+            bottom: 0;
+            width: 0.8rem;
+            height: 0.8rem;
+            border-radius: 50%;
+            background-color: #293b49;
+            animation-name: eye;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+        .eye-left {
+            left: 0;
+        }
+
+        .eye-right {
+            right: 0;
+        }
+
+        @keyframes eye {
+            0% {
+                height: 0.8rem;
+            }
+
+            50% {
+                height: 0.8rem;
+            }
+
+            52% {
+                height: 0.1rem;
+            }
+
+            54% {
+                height: 0.8rem;
+            }
+
+            100% {
+                height: 0.8rem;
+            }
+        }
+
+        .rosyCheeks {
+            position: absolute;
+            top: 1.6rem;
+            width: 1rem;
+            height: 0.2rem;
+            border-radius: 50%;
+            background-color: #fdabaf;
+        }
+
+        .rosyCheeks-left {
+            left: 1.4rem;
+        }
+
+        .rosyCheeks-right {
+            right: 1.4rem;
+        }
+
+        .mouth {
+            position: absolute;
+            top: 3.1rem;
+            left: 50%;
+            width: 1.6rem;
+            height: 0.2rem;
+            border-radius: 0.1rem;
+            transform: translateX(-50%);
+            background-color: #293b49;
+        }
+
+        .text {
+            margin-top: 5rem;
+            font-weight: 300;
+            color: #293b49;
+        }
+
+        .button {
+            margin-top: 4rem;
+            padding: 1.2rem 3rem;
+            color: white;
+            background-color: #04cba0;
+        }
+
+            .button:hover {
+                background-color: #01ac88;
+            }
+
+        .by {
+            position: absolute;
+            bottom: 0.5rem;
+            left: 0.5rem;
+            text-transform: uppercase;
+            color: #293b49;
+        }
+
+        .byLink {
+            color: #04cba0;
+        }
+    </style>
+</head>
+<body>
+<div class="error-section">
+<div class="shape-one"><img src="/images/error-bg-shape.png" alt="image"></div>
+<div class="shape-two"><img src="/images/error-bg-shape-2.png" alt="image"></div>
+<div class="star-one"><img src="/images/output-onlinepngtoolsstep1.png" alt="image"></div>
+<div class="star-two"><img src="/images/output-onlinepngtoolsstep2.png" alt="image"></div>
+<div class="star-three"><img src="/images/output-onlinepngtoolsstep3.png" alt="image"></div>
+<div class="error-content-wrapper">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-12">
+<div class="error-content">
+<div class="error">
+<div class="number"></div>
+<div class="illustration">
+<div class="circle"></div>
+<div class="clip">
+<div class="paper">
+<div class="face">
+<div class="eyes">
+<div class="eye eye-left"></div>
+<div class="eye eye-right"></div>
+</div>
+<div class="rosyCheeks rosyCheeks-left"></div>
+<div class="rosyCheeks rosyCheeks-right"></div>
+<div class="mouth"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="number"></div>
+</div> <span class="error-message"> Oops.. looks like you got lost or something went wrong :(</span>
+<a href="/Landing/index" class="btn btn-primary btn-round btn-hover">back to home</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+﻿body {
+    color: #161c2d;
+}
+
+h6 {
+    font-size: 16px !important;
+}
+
+.text-muted {
+    color: #8492a6 !important;
+}
+
+h5 {
+    font-size: 20px !important;
+}
+
+p {
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.fea.icon-ex-md {
+    height: 20px;
+    width: 20px;
+}
+
+.fea {
+    stroke-width: 1.8;
+}
+
+.mr-3, .mx-3 {
+    margin-right: 1rem !important;
+}
+
+.rtl .mr-3, .rtl .mx-3 {
+    margin-left: 1rem !important;
+    margin-right: initial !important
+}
+
+.text-success {
+    color: #12adbb !important;
+}
+
+.rtl .mr-2, .rtl .mx-2 {
+    margin-left: .5rem !important;
+    margin-right: initial !important
+}
+
+.rtl svg.text-success {
+    transform: scale(-1)
+}
+
+.text-primary {
+    color: #1bbfdd !important;
+}
+
+@media(max-width:767px) {
+    .h6respo {
+        margin-top: 30px;
+    }
+}
+
+.media-body {
+    flex: initial;
+    width: 30%;
+}
+
+    .media-body h6 {
+        margin-bottom: 0 !important
+    }
+
+h5 {
+    font-weight: bold;
+}
+
+.text-primary {
+    color: #98989a !important;
+}
+
+.descolor ul {
+    color: #98989a;
+    list-style: inherit;
+}
+
+#JobDetails {
+    background: #f4f4f4;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+}
+
+    #JobDetails .card {
+        border-top: 6px solid #65c7c8 !important;
+    }
+
+.descolor {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.alljobdetails .media p {
+    width: calc(70% - 24px);
+}
+

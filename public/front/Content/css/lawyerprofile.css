@@ -1,0 +1,395 @@
+﻿
+.parallax-section {
+    padding: 70px 0;
+    position: relative;
+}
+
+.parallax-section {
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+.attorneytop {
+    background: #eee;
+    padding: 30px;
+}
+
+.lawimg {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #FFF;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+.attorneytop h2 {
+    color: #12adbb;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.attorneytop h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.attorneytop p {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+p {
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.address li {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #333;
+    border-left: 3px solid #888;
+    margin-bottom: 12px;
+    display: block;
+}
+
+    .address li i {
+        margin-right: 10px;
+        color: #12adbb;
+    }
+
+.social {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+    .list-inline > li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+.social li a {
+    display: block;
+    height: 36px;
+    width: auto;
+    border-radius: 5px;
+    color: #fff !important;
+    line-height: 2;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    background: #999;
+}
+
+.attorneydetail h1 {
+    color: #444;
+    font-size: 36px;
+}
+
+.attorneydetail p {
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.attorneydetail h2 {
+    color: #696969;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.attorneydetail ul li {
+    padding: 5px 0 5px 20px;
+    position: relative;
+}
+
+    .attorneydetail ul li:before {
+        position: absolute;
+        content: '\f061';
+        font-family: 'FontAwesome';
+        left: 0;
+        color: #12adbb;
+    }
+
+@@media(min-width: 992px) {
+
+    .rtlClass .col-md-1, .rtlClass .col-md-2, .rtlClass .col-md-3, .rtlClass .col-md-4, .rtlClass .col-md-5, .rtlClass .col-md-6, .rtlClass .col-md-7, .rtlClass .col-md-8, .col-md-9, .rtlClass .col-md-10, .rtlClass .col-md-11, .rtlClass .col-md-12 {
+        float: right;
+    }
+
+    .rtlClass .address li {
+        border-right: 3px solid #888;
+        border-left: initial;
+    }
+
+    .rtlClass .attorneydetail ul li:before {
+        right: -16px;
+        transform: scale(-1);
+        left: initial;
+    }
+
+    .rtlClass .attorneydetail ul li {
+        padding: 5px 20px 5px 0px;
+    }
+}
+
+.pricingTable {
+    color: #fff;
+    background: linear-gradient(to bottom, #1bbfdd, #139fb9);
+    text-align: center;
+    padding: 10px 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+}
+
+    /*.pricingTable:before,
+        .pricingTable:after {
+            content: "";
+            background: #fff;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid #1bbfdd;
+            box-shadow: 0 0 1px 8px #fff;
+            position: absolute;
+            top: 100px;
+            right: 20px;
+        }*/
+
+    .pricingTable:after {
+        width: 20px;
+        height: 20px;
+        box-shadow: 0 0 1px 4px #fff;
+        top: 35px;
+        right: 50px;
+    }
+
+    .pricingTable .pricingTable-header {
+        margin: 0 0 40px;
+    }
+
+    /*.pricingTable .pricingTable-header:before {
+                content: "";
+                background: #fff;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                position: absolute;
+                top: -30px;
+                left: -30px;
+            }*/
+
+    .pricingTable .price-value {
+        color: #17b1cd;
+        width: 140px;
+        height: 140px;
+        padding: 25px 10px;
+        border-radius: 50%;
+        position: relative;
+    }
+
+
+
+        /*.pricingTable .price-value:before {
+                content: "";
+                border: 2px solid #17b1cd;
+                border-radius: 50%;
+                position: absolute;
+                top: 5px;
+                left: 5px;
+                right: 5px;
+                bottom: 5px;
+            }*/
+
+        .pricingTable .price-value .currency {
+            font-size: 35px;
+            line-height: 35px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 -3px 0 0;
+        }
+
+        .pricingTable .price-value .amount {
+            font-size: 65px;
+            line-height: 70px;
+            display: inline-block;
+        }
+
+        .pricingTable .price-value .duration {
+            font-size: 16px;
+            text-transform: capitalize;
+            display: block;
+            margin-top: -7px;
+        }
+
+    .pricingTable .pricing-content {
+        padding: 23px 6px 45px;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .pricingTable .title {
+        font-size: 22px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        margin: 0;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .pricingTable .pricing-content ul {
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: inline-block;
+    }
+
+        .pricingTable .pricing-content ul li {
+            font-size: 17px;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0px;
+            margin: 0 0 10px;
+            position: relative;
+        }
+
+    .pricingTable .pricing-content li:last-child {
+        margin: 0;
+    }
+
+    /*.pricingTable .pricing-content li:before {
+            content: "";
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            border: 0;
+            position: absolute;
+            top: 7px;
+            left: 0;
+        }*/
+
+    .pricingTable .pricingTable-signup a {
+        color: #17b1cd;
+        background: #fff;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 40px;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        width: 60%;
+        display: block;
+        margin: -22px auto 0;
+        transition: all 0.3s ease 0s;
+    }
+
+        .pricingTable .pricingTable-signup a:hover {
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+    .pricingTable.blue {
+        background: linear-gradient(to bottom, #696969, #69696982);
+    }
+
+        .pricingTable.blue:before,
+        .pricingTable.blue:after,
+        .pricingTable.blue .price-value,
+        .pricingTable.blue .price-value:before {
+            border-color: #696969;
+            color: #696969;
+        }
+
+        .pricingTable.blue .pricingTable-signup a {
+            color: #696969;
+        }
+
+    .pricingTable.red {
+        background: linear-gradient(to bottom, #12adbb, #488a87);
+    }
+
+        .pricingTable.red:before,
+        .pricingTable.red:after,
+        .pricingTable.red .price-value,
+        .pricingTable.red .price-value:before {
+            border-color: #12adbb;
+            color: #12adbb;
+        }
+
+        .pricingTable.red .pricingTable-signup a {
+            color: #64beba;
+        }
+
+@@media only screen and (max-width: 990px) {
+    .pricingTable {
+        margin-bottom: 40px;
+    }
+}
+
+/*.rtlClass .pricingTable:before, .rtlClass .pricingTable:after {
+        left: 20px;
+        right: initial !important
+    }
+
+    .rtlClass .pricingTable .pricingTable-header:before {
+        right: -30px;
+        left: initial
+    }*/
+
+.meeting-type {
+    border-bottom: 3px solid rgba(255,255,255,0.1);
+    padding-bottom: 10px;
+    position: relative;
+    line-height: 1.1;
+    font-size: 3rem;
+    color: white;
+    margin-top: 0;
+}
+
+.module-meeting-type p {
+    color: #b7bbc8;
+}
+
+.module-meeting-type-parent {
+    background: #2c303a;
+}
+
+.modal-header .close {
+    color: white;
+    opacity: 1;
+}
+
+.video-chat, .voice-chat {
+    margin: 0 20px;
+    border-radius: 5px !important;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+}
+
+.video-chat {
+    background: #6ec7c5;
+}
+
+.voice-chat {
+    background: #777;
+}
+
+
